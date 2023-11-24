@@ -15,7 +15,7 @@ var plataforma = [
 
 var barreira = [
     { x: -200, y: 0, width: 1, height: 200000000},
-    { x: 6600, y: 0, width: 1, height: 200000000}
+    { x: 5950, y: 0, width: 1, height: 200000000}
 ];
 
 var cano = [ 

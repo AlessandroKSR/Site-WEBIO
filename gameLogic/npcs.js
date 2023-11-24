@@ -6,9 +6,9 @@ var cronometro;
 
 var npcs = [{
     x: 530,
-    y: 352,
-    width: 59,
-    height: 100,
+    y: 397,
+    width: 55,
+    height: 55,
     quiz: {
         question: "Onde ocorre a fertilização no sistema reprodutor feminino?",
         options: ["Útero", "Ovários", "Trompas de Falópio", "Vagina"],
@@ -18,9 +18,9 @@ var npcs = [{
 
 {
     x: 1430,
-    y: 502,
-    width: 59,
-    height: 100,
+    y: 571.5,
+    width: 30,
+    height: 30,
     quiz: {
         question: "O que acontece durante o processo de ovulação?",
         options: ["Fertilização do óvulo pelo espermatozoide", "Implantação do embrião no útero", "Liberação de um óvulo pelos ovários",  "Menstruação"],
@@ -29,9 +29,9 @@ var npcs = [{
 },
 {
     x: 1900,
-    y: 502,
-    width: 59,
-    height: 100,
+    y: 534,
+    width: 70,
+    height: 70,
     quiz: {
         question: "Qual o papel da progesterona no ciclo menstrual?",
         options: ["Estimular o desenvolvimento dos órgãos sexuais femininos", "Induzir a ovulação", "Preparar o revestimento do útero para a gravidez", "Inibir a produção de óvulos pelos ovários"],
@@ -40,9 +40,9 @@ var npcs = [{
 },
 {
     x: 2650,
-    y: 350,
-    width: 59,
-    height: 100,
+    y: 397,
+    width: 55,
+    height: 55,
     quiz: {
         question: "Qual é a função dos pequenos lábios no sistema reprodutor feminino?",
         options: [ "Dar saída ao fluxo menstrual", "Manter a lubrificação vaginal","Proteger a vagina contra bactérias", "Apenas envolver a vagina"],
@@ -52,9 +52,9 @@ var npcs = [{
 
 {
     x: 3150,
-    y: 150,
-    width: 59,
-    height: 100,
+    y: 216,
+    width: 35,
+    height: 35,
     quiz: {
         question: "Qual é o órgão responsável por dar saída ao fluxo menstrual, receber o pênis durante a relação sexual e formar o canal do parto?",
         options: ["Ovário", "Útero", "Vagina", "Uretra"],
@@ -63,9 +63,9 @@ var npcs = [{
 },
 {
     x: 3300,
-    y: 502,
-    width: 59,
-    height: 100,
+    y: 533,
+    width: 70,
+    height: 70,
     quiz: {
         question: "Qual é a principal função dos ovários no sistema reprodutor das mulheres?",
         options: ["Proteger a vagina contra bactérias", "Transportar o óvulo até a cavidade uterina","Produzir hormônios como estrogênio e a produção de óvulos", "Estimular a ovulação"],
@@ -74,9 +74,9 @@ var npcs = [{
 },
 {
     x: 3880,
-    y: 250,
-    width: 59,
-    height: 100,
+    y: 298,
+    width: 55,
+    height: 55,
     quiz: {
         question: "O que acontece durante a fase de ovulação no ciclo menstrual feminino?",
         options: ["Liberação de progesterona", "Desprendimento do endométrio", "Chegada do óvulo às trompas para ser fecundado", "Estimulação do desenvolvimento dos órgãos sexuais femininos"],
@@ -85,9 +85,9 @@ var npcs = [{
 },
 {
     x: 4350,
-    y: 50,
-    width: 59,
-    height: 100,
+    y: 112,
+    width: 40,
+    height: 40,
     quiz: {
         question: "Qual é a principal função do colo do útero no sistema reprodutor feminino?",
         options: ["Produzir hormônios como estrogênio", "Chegada do óvulo às trompas para ser fecundado", "Separar os órgãos externos e internos do órgão reprodutor feminino", "Proteger a vagina contra bactérias"],
@@ -96,9 +96,9 @@ var npcs = [{
 },
 {
     x: 5275,
-    y: 502,
-    width: 59,
-    height: 100,
+    y: 576,
+    width: 25,
+    height: 25,
     quiz: {
         question: "O que são os cílios da tuba uterina e qual é o seu papel no sistema reprodutor feminino?",
         options: ["Produzir hormônios como a progesterona", "Induzir a ovulação", "Garantir que o embrião siga em direção ao útero", "Estimular a produção de óvulos pelos ovários"],
@@ -107,10 +107,10 @@ var npcs = [{
 },
 
 {
-    x: 5800,
-    y: 502,
-    width: 59,
-    height: 100,
+    x: 5755,
+    y: 455,
+    width: 150,
+    height: 150,
     quiz: {
         question: "Onde está localizado o clitóris?",
         options: ["Na parte inferior do vestíbulo vulvar", "Na parte interior da Vagina", "Na parte mais superior do vestíbulo vulvar", "Mito"],
@@ -119,9 +119,9 @@ var npcs = [{
 },
 {
     x: 58000,
-    y: 502,
-    width: 59,
-    height: 100,
+    y: 552,
+    width: 70,
+    height: 70,
     quiz: {
         question: "Onde está localizado o clitóris?",
         options: ["Na parte inferior do vestíbulo vulvar", "Na parte interior da Vagina", "Na parte mais superior do vestíbulo vulvar", "Mito"],

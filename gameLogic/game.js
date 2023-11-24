@@ -10,7 +10,7 @@ var plataformaImg =  new Image();
 
 backgroundImage.src = "imagens/fundo2.png";
 personagem.src = "imagens/ovulo.png";
-npcsImg.src = "imagens/eduardo_costa.png";
+npcsImg.src = "imagens/npc.png";
 inimigos.src = "imagens/diu.png";
 canoImg.src = "imagens/cano.png";
 plataformaImg.src = "imagens/chao.png";
@@ -80,7 +80,6 @@ function jogoLoop() {
     }
     desenho();
     requestAnimationFrame(jogoLoop);
-    console.log(player.y);
 }
 
 window.addEventListener('keydown', function(e) {
